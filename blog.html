@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Личный блог</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <div class="info">
+        <img src="selfie.jpg" alt="Моё фото" class="avatar">
+        <div class="info-text">
+            <h1>Спартак Замша</h1>
+            <p>Я являюсь менеджером смены в компании <a href="https://dodopizza.ru/" target="_blank"><strong>Додо Пицца</strong></a></p>
+            <p>Я обучаюсь <em>Веб-Разработке</em></p>
+            <p>В свободное время люблю бездельничать</p>
+            <p>Так же пытаюсь разобраться с GitHub</p>
+        </div>
+    </div>
+    <div class="card bg-yellow">
+        <h4>Мои социальные сети</h4>
+        <a target="_blank" href="https://vk.com/str4p1">VK</a> |
+        <a target="_blank" href="https://yandex.ru">Instagram</a> | 
+        <a target="_blank" href="https://yandex.ru">Telegram</a>
+    </div>
+    <div class="card bg-green">
+        <h2>Мои хобби</h2>
+        <ol class="list">
+            <li>Программировать</li>
+            <li>Мотоциклы</li>
+            <li>Серфить просторы интернета</li>
+        </ol>
+    </div>
+    <div class="card bg-red">
+        <h2>Опыт работы</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <td>Frontend</td>
+                    <td>Web development</td>
+                    <td>2022-2023</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>SPARTAK inc.</td>
+                    <td>Lead Frontend</td>
+                    <td>2023-Now</td>
+                </tr>
+                <tr>
+                    <td>Lis&Spa</td>
+                    <td>Lead Frontend</td>
+                    <td>2023-Now</td>
+                </tr>
+                <tr>
+                    <td>Yandex</td>
+                    <td>Team Lead</td>
+                    <td>04.2022-12.2022</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="card bg-blue">
+        <h2>Пройденные материалы</h2>
+        <ul class="list-link">
+            <li><a href="https://www.youtube.com/watch?v=DOEtVdkKwcU" clas="a">HTML для Начинающих - Практический Курс [2021]</a></li>
+            <li><a href="https://www.youtube.com/watch?v=SpCUuyZZTp8" class="a">CSS для Начинающих - Практический Курс [2021]</a></li>
+        </ul>
+    </div>
+    <div class="contact">
+        <h2>Связь со мной</h2>
+        <form action="#">
+            <div class="row">
+                <div class="form-group">
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" name="name" id="name" placeholder="на русском" required>
+                </div>
+                <div class="form-group">
+                    <label for="surname">Ваша фамилия:</label>
+                    <input type="text" name="surname" id="surname" placeholder="на русском" required>
+                </div>
+            </div>
+            <div class="raw">
+                <div class="form-group">
+                    <label for="email">Ваш e-mail:</label>
+                    <input type="email" name="email" id="email" placeholder="полный адрес" required>
+                </div>
+                <div class="form-group">
+                    <label for="nomber">Ваш телефон:</label>
+                    <input type="tel" name="nomber" placeholder="только цифры" required>
+                 </div>
+            </div>
+            <div>
+                <label for="sex">Ваш пол:</label>
+                <input type="radio" name="sex" checked>Мужской
+                <input type="radio" name="sex">Женский
+            </div>
+            <div class="form-group">
+                <textarea name="" id="" cols="20" rows="5" placeholder="Введите ваш вопрос" required></textarea>
+            </div>
+            <div>
+            <input type='submit' value="Отправить" class="btn">
+            <input type='reset' value="Очистить" class="btn">
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>

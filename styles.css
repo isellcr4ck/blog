@@ -1,0 +1,185 @@
+.avatar {
+    width: 150px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+body {
+    background: #f1f1f1;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.table {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+/*TH , TD {
+    border: 3px solid black;
+    text-align: center;
+} */
+
+.info p {
+    display: flex;
+    color: #565960;
+    font-style: italic;
+    margin-bottom: 20px;
+    text-decoration: none;
+    /* text-transform: ;
+    letter-spacing: ;
+    word-spacing: ; */
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+/* Box Model */
+/*.social {
+    color: white;
+    background: red;
+    padding: 3px 5px;
+    /* padding: 5px 10px 15px 2px;
+    padding-top: ;
+    padding-right: ;
+    padding-bottom: 
+    padding-left: ;
+
+    border: 3px solid green;
+    margin: 20px;
+} */
+
+.bg-yellow {
+    background: #fff9dc;
+}
+
+.bg-green {
+    background: #e5ffe7;
+}
+
+.bg-red {
+    background: #ffe5e5;
+}
+
+.bg-blue {
+    background: #f0ffff;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 28px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: grey;
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0px 20px;
+}
+
+.table td:nth-child(2) , .table td:nth-child(3) {
+    color: #86898f;
+}
+
+.list-link {
+    list-style: square;
+    padding-left: 20px;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input, 
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    padding: 10px 0 15px;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row > .form-group:last-child {
+    margin-right: 0;
+}
+
+.raw {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.raw > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.raw > .form-group:last-child {
+    margin-right: 0;
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.btn {
+    margin-top: 10px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    margin-right: 25%;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
